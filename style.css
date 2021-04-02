@@ -57,6 +57,21 @@ main {
   background-color: lightseagreen;
   color: white;
 }
+.hiring-para {
+  position: relative;
+  animation-name: slide_down;
+  animation-duration: 5s;
+}
+
+@keyframes slide_down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 10;
+  }
+}
+
 .content-container {
   display: grid;
   grid-template-rows: 1fr 1fr;
