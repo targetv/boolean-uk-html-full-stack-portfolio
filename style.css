@@ -47,9 +47,8 @@ header li {
 }
 /* Main Styles */
 main {
-  background-color: yellow;
   display: grid;
-  grid-template-rows: 800px 500px 550px 650px;
+  grid-template-rows: 800px 500px 550px 650px 55px;
 }
 .hiring-section {
   display: grid;
@@ -185,6 +184,25 @@ strong {
 .experience-container h3 {
   text-align: start;
   margin: 20px 0px 10px 0px;
+}
+/* Back to top button */
+.back-to-top {
+  position: sticky;
+  display: block;
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  width: 50px;
+  padding: 4px;
+  margin: 4px;
+  font-size: 2rem;
+  text-decoration: none;
+  left: 95%;
+  bottom: 50px;
+}
+.back-to-top-section {
+  background-color: white;
 }
 
 /* Footer Styles */
