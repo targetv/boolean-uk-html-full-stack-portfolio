@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template:
+    "header" 50px
+    "main" 1fr
+    "footer" 50px/
+    1fr;
+  height: 100vh;
+  width: 100vw;
+}
+/* Header Styles */
+header {
+  background-color: lightseagreen;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+header h2 {
+  color: white;
+  text-align: start;
+  margin: 10px 10px;
+}
+nav {
+  display: grid;
+  justify-content: end;
+  align-content: center;
+}
+header a {
+  display: block;
+  text-decoration: none;
+  padding: 4px 5px;
+  border-radius: 3px;
+  background-color: white;
+  color: lightseagreen;
+}
+header li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+/* Main Styles */
+main {
+  background-color: yellow;
+  display: grid;
+  grid-template-rows: 800px 500px 550px 650px;
+}
+.hiring-section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: lightseagreen;
+  color: white;
+}
+.content-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.content-container h1 {
+  display: inline-block;
+  font-size: 4rem;
+  width: 10ch;
+  line-height: 5rem;
+  text-align: start;
+  margin: 10px 0px;
+}
+p {
+  width: 55ch;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+
+  text-align: start;
+}
+
+.underline {
+  text-decoration: underline;
+}
+strong {
+  color: black;
+}
+/* About Me */
+.about-me-section {
+  display: grid;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+}
+.about-container {
+  text-align: center;
+}
+.about-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.about-container h3 {
+  text-align: start;
+  font-size: 1.4rem;
+  margin: 20px 0px;
+}
+.list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 0px 0px 40px;
+  line-height: 1.5rem;
+}
+.left-list {
+  text-align: start;
+}
+.right-list {
+  text-align: start;
+}
+/* Portfolio */
+.portfolio-section {
+  background-color: pink;
+  display: grid;
+  justify-content: center;
+}
+.portfolio-container {
+  text-align: center;
+}
+.portfolio-container h2 {
+  font-size: 2.5rem;
+  margin: 30px 0px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 20px;
+  margin: 0px 10px;
+}
+.card {
+  border: 7px solid rgb(206, 6, 39);
+  padding: 30px 30px;
+  text-align: start;
+  background-color: white;
+  border-radius: 3px;
+}
+.card p {
+  width: 25ch;
+  margin: 20px 0px;
+}
+.card h3 {
+  font-size: 1.5rem;
+}
+.card a {
+  display: block;
+  margin: 10px 0px;
+  text-align: center;
+  color: rgb(206, 6, 39);
+}
+.card .btn {
+  text-decoration: none;
+  background-color: rgb(206, 6, 39);
+  padding: 7px 0px;
+  border-radius: 3px;
+  color: white;
+}
+/* Experience */
+
+.experience-section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+}
+.experience-container {
+  text-align: center;
+}
+.experience-container h2 {
+  font-size: 2.5rem;
+  margin: 20px 0px;
+}
+.experience-container h3 {
+  text-align: start;
+  margin: 20px 0px 10px 0px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: rgba(57, 57, 83, 0.822);
+  padding: 10px 20px;
+  color: white;
+}
