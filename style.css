@@ -89,6 +89,7 @@ strong {
   background-color: white;
   justify-content: center;
   align-content: center;
+  border-top: 10px solid rgba(57, 57, 83, 0.822);
 }
 .about-container {
   text-align: center;
@@ -119,6 +120,7 @@ strong {
   background-color: pink;
   display: grid;
   justify-content: center;
+  border-top: 10px solid rgba(57, 57, 83, 0.822);
 }
 .portfolio-container {
   text-align: center;
@@ -167,6 +169,7 @@ strong {
   justify-content: center;
   align-content: center;
   background-color: white;
+  border-top: 10px solid rgba(57, 57, 83, 0.822);
 }
 .experience-container {
   text-align: center;
