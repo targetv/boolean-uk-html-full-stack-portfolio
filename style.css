@@ -21,12 +21,13 @@ body {
 header {
   background-color: lightseagreen;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 400px 1fr;
 }
 header h2 {
   color: white;
   text-align: start;
   margin: 10px 10px;
+  font-size: 2rem;
 }
 nav {
   display: grid;
@@ -216,6 +217,10 @@ strong {
   background-color: white;
   border-radius: 3px;
 }
+.card:hover {
+  box-shadow: 2px 2px 2px black;
+}
+
 .card p {
   width: 25ch;
   margin: 20px 0px;
@@ -240,8 +245,7 @@ strong {
 
 .experience-section {
   display: grid;
-  justify-content: center;
-  align-content: center;
+  place-items: center;
   background-color: white;
   border-top: 10px solid rgba(57, 57, 83, 0.822);
 }
