@@ -59,7 +59,7 @@ header ul {
 /* Main Styles */
 main {
   display: grid;
-  grid-template-rows: 800px 500px 550px 650px 55px;
+  grid-template-rows: 800px 500px 550px 650px;
 }
 .hiring-section {
   display: grid;
@@ -320,5 +320,12 @@ footer {
       "main" 1fr
       "footer" 50px/
       1fr;
+  }
+  .card-container {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+  main {
+    grid-template-rows: 800px 500px auto 650px;
   }
 }
